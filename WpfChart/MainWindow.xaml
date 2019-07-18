@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfChart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfChart"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel>
+            <Button Content="雷达图原始" Click="Button_Click"></Button>
+            <Button Content="雷达图修改" Click="Button_Click"></Button>
+            <Button Content="域图" Click="Button_Click"></Button>
+            <Button Content="横柱图" Click="Button_Click"></Button>
+            <Button Content="气泡图" Click="Button_Click"></Button>
+            <Button Content="柱形图" Click="Button_Click"></Button>
+            <Button Content="线形图" Click="Button_Click"></Button>
+            <Button Content="饼图" Click="Button_Click"></Button>
+            <Button Content="自定义饼图" Click="Button_Click"></Button>
+            <Button Content="分散图" Click="Button_Click"></Button>
+            
+        </StackPanel>
+    </DockPanel>
+</Window>
